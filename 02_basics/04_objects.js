@@ -41,15 +41,23 @@ const users = [
     }
 ]
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('InLoggedIn'));
-console.log(tinderUser.propertyIsEnumerable('InLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('InLoggedIn'));
+// console.log(tinderUser.propertyIsEnumerable('InLoggedIn'));
 
+const course ={
+    coursename: "Js for beginners",
+    price: "999",
+    courseInstructor: "nitin"
+}
+
+const {courseInstructor} = course
+console.log(courseInstructor);
 
 
 
